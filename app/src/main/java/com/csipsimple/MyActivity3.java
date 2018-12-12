@@ -77,7 +77,9 @@ public class MyActivity3 extends Activity {
                     //Toast.makeText(context, member.getNumber(), Toast.LENGTH_LONG).show();
                 }
                 if(i%2 == 1&&i>=1){
-                    int x = i%2-1;
+                    int x = i%2;
+                    x = x - 1;
+                    //int x = i%2 - 1;
                     members[x] = new Member(name,number);
                     //Toast.makeText(context, member.getName(), Toast.LENGTH_LONG).show();
                     //Toast.makeText(context, member.getNumber(), Toast.LENGTH_LONG).show();
