@@ -58,13 +58,7 @@ public class MyActivity2 extends Activity implements View.OnClickListener {
         String name,number;
         name = editname.getText().toString();
         number = editnumber.getText().toString();
-        //Toast.makeText(MyActivity2.this, name, Toast.LENGTH_LONG).show();
-        //numberlist[listnumber] = number;
-        //namelist[listnumber] = name;
 
-        // Member member = new Member(name,number);
-        // MyActivity3.memberArrayList.add(member);
-        // listnumber++;
 
         String content = name + '/' + number;
         writelist(content,MyActivity2.this);
